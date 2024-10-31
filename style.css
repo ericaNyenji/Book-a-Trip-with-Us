@@ -1,0 +1,202 @@
+*{
+  /* universal selector. It selects all elements in the HTML document. */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+}
+#nav .navbar-nav .nav-link {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #nav .navbar-toggler-icon {
+    color: black;
+  }
+  #nav .navbar-nav .nav-link:hover{
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 7px tomato;
+  }
+  
+  #nav{
+    height: 10vh;
+  }
+ 
+  body {
+    margin: 20px;
+    font-size: 100%; /* Set a base font size */
+    font-family: Arial, sans-serif;
+  }
+
+  .small-text {
+    font-size: 0.8em; /* Set the font size relative to the parent element */
+    font-family: sans-serif;
+  }
+  
+  .image-wrapper {
+    margin-bottom: 20px;
+  }
+  /* body {
+    background-image: url("Media/Elephant.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  .background {  
+    /* 
+In CSS, the period (.) is used to denote a class selector. When you write .background, you're indicating that you're targeting an HTML element with a class attribute of "background". */
+    background-image: url("Media/Elephant.jpg"); 
+    /* background-color: white; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+  }
+
+  .special-page {
+    background-image: url("Media/whitebrown.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+
+  }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.KenyaIcon {
+  max-width: 100%;
+  height: auto;
+}
+
+h2.text-center {
+  /*  elements that also have the class "text-center". This selector is commonly used to apply specific styling to <h2> headings that are centered horizontally on the page. */
+  font-weight: bold;
+}
+
+.image-paragraph {
+  float: left;
+  width: 50%; /* Adjust this value to control the width of the paragraph */
+  margin-right: 20px; /* Adjust this value to add spacing between the image and the paragraph */
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+}
+
+.custom-video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* skip to link */
+nav#skip a {
+	position: absolute;
+	left: -9999px
+}
+
+.table-container {
+  width: 75%; /* Adjust the width value as needed */
+  margin: 0 auto; /* Center the table horizontally */
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+  padding-top: 0; /* Remove top padding */
+}
+
+.video-container {
+  max-width: 750px;
+}
+
+.centered-heading {
+  text-align: center;
+  margin: auto;
+  max-width: 800px; /* Adjust as needed */
+}
+
+.text-center {
+  text-align: center;
+  transform: translateY(-50%);
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+.container-fluid.bo {
+  border: 2px solid black;
+  border-width: 2px 2px 2px 2px; /* top, right, bottom, left */
+  border-style: solid;
+  border-radius: 6px; /* optional: adds rounded corners */
+}
+
+.fieldset-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fieldset-left,
+.fieldset-right {
+  flex-basis: 48%; /* Adjust the width of the columns as needed */
+}
+
+
+ a:link {color:blue;}
+ /*  This rule sets the color of unvisited links to blue. When you haven't clicked on the link yet, it will appear blue. */
+ a:visited {color:red;}
+ /* his rule sets the color of visited links to red. Once you've clicked on the link and visited the page it points to, subsequent appearances of the link will be red */
+ 
+
+ .thumbnail {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+
+ 
+nav#forvisualimpairment span {
+	/* background-image:url("../images/icons.png"); */
+	/* background-repeat:no-repeat; */
+	display:inline-block;
+	width:60px;
+	height:60px;
+	margin-right:5px;
+	background-position:-240px 0px;
+	float:left;
+		
+}
+
+a#normaltext {display: none;}
+
+nav#forvisualimpairment {
+	position:absolute; 
+	width:210px;
+	left:20px;
+	top:10px;
+	/* border:1px solid black; */
+	/* border-radius:0 10px 0 0 ;  */
+	}

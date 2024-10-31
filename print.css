@@ -1,0 +1,23 @@
+@media print {
+    a {
+        display: none;
+    }
+    body {
+        font-size: 12pt;
+        background-color: transparent;
+        background-image: none;
+      }
+
+      video {
+        display: none;
+    }
+
+    /* Hide thumbnails */
+    .thumbnail {
+        display: none;
+    }
+    #nav {
+     display: none;
+  }
+        
+  }
